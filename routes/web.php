@@ -110,6 +110,8 @@ Route::prefix('admink')->group(function() {
 		Route::post('/','Admin\ConfigsTextController@update')->name('admin.configs-text.update');
 		Route::get('seo','Admin\ConfigsTextSeoController@index')->name('admin.configs-text-seo.index');
 		Route::post('seo','Admin\ConfigsTextSeoController@update')->name('admin.configs-text-seo.update');
+		Route::get('advanced','Admin\ConfigsTextAdvancedController@index')->name('admin.configs-text-advanced.index');
+		Route::post('advanced','Admin\ConfigsTextAdvancedController@update')->name('admin.configs-text-advanced.update');
 	});
 });
 Route::get('doupload','Admin\PageController@upload_editor')->name('upload_editor');

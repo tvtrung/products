@@ -46,5 +46,10 @@ class IndexComposer {
             $ConfigsText_arr = json_decode($ConfigsText->value, true);
             $view->with('ConfigsTextSEO', $ConfigsText_arr);
         }
+        $ConfigsText = ConfigsText::where('key','advanced')->first();
+        if(!empty($ConfigsText)){
+            $ConfigsText_arr = json_decode($ConfigsText->value, true);
+            $view->with('ConfigsTextAdvanced', $ConfigsText_arr);
+        }
     }
 }

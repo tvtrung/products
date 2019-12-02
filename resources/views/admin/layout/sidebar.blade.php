@@ -159,7 +159,7 @@
                 </ul>
             </li>
             {{-- Contact Management --}}
-            <li class="nav-item start {{ isActive('admin.configs-text.index', 'active open') }} {{ isActive('admin.configs-text-seo.index', 'active open') }}">
+            <li class="nav-item start {{ isActive('admin.configs-text.index', 'active open') }} {{ isActive('admin.configs-text-seo.index', 'active open') }} {{ isActive('admin.configs-text-advanced.index', 'active open') }}">
                 <a href="javascript:;" class="nav-link nav-toggle">
                     <i class="icon-users"></i>
                     <span class="title">Cấu hình</span>
@@ -171,6 +171,13 @@
                         <a href="{{route('admin.configs-text.index')}}" class="nav-link ">
                             <i class="fa fa-list"></i>
                             <span class="title">Cơ bản</span>
+                            <span class="selected"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item start {{ isActive('admin.configs-text-advanced.index', 'active open') }}">
+                        <a href="{{route('admin.configs-text-advanced.index')}}" class="nav-link ">
+                            <i class="fa fa-list"></i>
+                            <span class="title">Nâng cao</span>
                             <span class="selected"></span>
                         </a>
                     </li>
