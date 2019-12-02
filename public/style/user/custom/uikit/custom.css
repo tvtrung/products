@@ -1,0 +1,171 @@
+ul.idz-pricing-list>li.bottom-35 { margin-bottom: 35px }
+#idz-footer { padding: 30px 0 }
+.idz-intro-text .uk-margin-small-bottom { text-transform: uppercase; }
+.idz-text-left th { text-align: left; }
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+#idz-footer .idz-button-group span
+{
+	font-size: 16px
+}
+.min-height { min-height: 220px }
+.padding-35 { padding-left: 35px; padding-right: 35px }
+.idz-progress-bar-mini { background: #ccc }
+.padding-35 .idz-pricing-item.vps .idz-pricing-content h5
+{
+    background-color: rgba(187, 202, 213, 0.91);
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+.padding-35 .idz-pricing-list li .idz-pricing-content
+{
+    border: 2px solid rgba(183, 195, 203, 0.21);
+}
+.padding-35 .idz-vps-price { padding:35px 15px 0px 15px;   }
+.idz-text-20px  { font-size: 20px !important }
+.idz-pricing-list li .idz-pricing-content p.pricing-intro {
+        color: #0c0c0c;
+        font-weight: bold;
+}
+.relative_div { position: relative; }
+.idz-accordion .uk-accordion-title
+{
+    padding-bottom: 5px;
+    font-weight: normal;
+    font-size: 18px !important;
+    margin-bottom: 3px
+}
+.idz-accordion .uk-accordion-content
+{
+    margin-bottom: 3px
+}
+.idz-accordion .uk-accordion-title::before {
+    position: absolute;
+    content: "\f111";
+    font-family: "fontAwesome";
+    left: 0;
+    top: 10px;
+    font-size: 14px;
+    color: #cdcdcd;
+}
+.idz-pricing-item.shared .idz-pricing-content h5.color-w { background-color: inherit; }
+.color-w { color: white !important}
+.box-share{
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,.1);
+    -webkit-box-shadow: 2px 2px 15px 2px rgba(0,0,0,.1);
+}
+.idz-pricing-list li .idz-pricing-content.box-share
+{
+    padding: 10px 15px;
+    overflow: visible;
+}
+.box-share .idz-bar-list li {
+    padding-top: 5px
+}
+.idz-button.colo-button
+{
+    position: relative;
+    bottom: -30px;
+    border-radius: 5px
+}
+.idz-header-contact li
+{
+     text-transform: none;
+}
+#idz-header { padding-top: 3px; height: auto !important; padding-bottom: 0 }
+.padding-t { padding-top: 20px }
+.bx-wrapper { border: none;box-shadow: none; margin-bottom: 0 }
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+.bx-wrapper .bx-prev { background:none }
+.bx-wrapper .bx-next { background:none }
+.bx-wrapper .bx-loading { background: none }
+.idz-header-contact li { color: #867171 }
+.idz-header-nav  { background: linear-gradient(to right,#3dbcf4 0,#68cff3 100%); }
+.idz-nav .uk-navbar-nav > li.uk-active a, .idz-header-nav.uk-active > li.uk-active > a {
+    background-color: transparent;
+    color: #093353;
+}
+.idz-header-nav.uk-active .idz-nav .uk-navbar-nav > li > a {
+    color: #ffffff;
+}
+.idz-nav .uk-navbar-nav > li:hover > a, .idz-nav .uk-navbar-nav > li > a:focus, .idz-nav .uk-navbar-nav > li.uk-open > a {
+    background-color: transparent;
+    color: #093353;
+
+}
+.idz-button.blue { background-color: #3dbcf4 }
+#myTable {
+    width: 100% !important;
+}
+#myTable table.dataTable tbody th, table.dataTable tbody td
+{
+    padding: 20px
+}
+#myTable table.dataTable thead th, table.dataTable thead td {
+     padding: 20px; 
+     border-bottom: none; 
+}
+.domain .dataTables_wrapper .dataTables_length {
+    display: none;
+}
+#myTable_filter { float: none; margin-bottom: 5px; text-align: left; margin-top: 5px }
+#myTable_info { display: none; }
+.idz-nav .uk-navbar-nav > li > a
+{
+    padding: 0 18px
+}
+@media only screen and (max-width: 1220px)
+{
+    .idz-nav .uk-navbar-nav > li > a {
+    padding: 0px 10px;
+}
+    .text-25px { font-size: 24px !important }
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .idz-nav .uk-navbar-nav > li > a {
+    padding: 0px 10px;
+}
+}
+
+@media only screen and (max-width:765px) {
+    .idz-vps-specs { padding-right: 10px }
+    .padding-35 .idz-vps-price { position: relative; height: auto; }
+}

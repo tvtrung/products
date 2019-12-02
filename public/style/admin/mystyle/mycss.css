@@ -1,0 +1,39 @@
+.error-text-popup{
+	margin: 0;
+	color: red;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+.require-field{
+	color: red;
+}
+.modal-delete .modal-content .modal-header{
+	background: #ed6b75;
+}
+.modal-delete .modal-content .modal-header h4{
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+}
+.modal-view .modal-content .modal-header{
+	background: #286090;
+}
+.modal-view .modal-content .modal-header h4{
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+}
+table tr td .btn{
+	font-size: 13px;
+}
+.control-action-btn{
+	float: left;
+	margin-right: 15px;
+}
+.control-action-input{
+	width: initial;
+	float: left;
+}
+body, a{
+	font-size: 13px;
+}
